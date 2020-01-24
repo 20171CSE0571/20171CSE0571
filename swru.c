@@ -7,7 +7,7 @@ void main()
       printf("value of a before postincrement is %d\n",a);
       printf("value of b before decrement is %d\n",b);
       res=a-b;
-      printf("result=%d\n",res);//introooo
+      printf("res");
       printf("value of a after postincrement is %d\n",a);
       printf("value of b after decrement is %d\n",b);
 }

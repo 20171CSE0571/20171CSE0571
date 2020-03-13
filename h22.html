@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  display: none;
+  background-color: yellow;
+  padding: 20px;
+}
+p::first-line{
+  color:#ff0000;
+  font-variant:small-caps;
+  font-size:xx-large;
+}
+
+div:hover p {
+  display: block;
+}
+h1::before{
+  content:url(smiley.jpeg);
+}
+h1::after{
+  content:url(smiley.jpeg);
+}
+::selection{
+  color:red;
+background:yellow;
+}
+img{
+  opacity:0.5;
+}
+img:hover{
+ opacity:1.0;
+}
+div{
+background:rgb(76,175,80);
+padding:10px;
+}
+div.first{
+background:rgba(76,175,80,0.1);
+}
+div.second{
+background:rgba(76,175,80,0.3);
+}
+div.third{
+background:rgba(76,175,80,0.6);
+}
+</style>
+</head>
+<body>
+<div>Hover over me to show the p element
+  <p>Tada! Here I am!A CSS pseudo-element is used to style specified parts of an element.
+
+For example, it can be used to:
+
+    Style the first letter, or line, of an element
+    Insert content before, or after, the content of an element
+</p>
+</div><hr>
+<h1>smiley before</h1>
+<h1>smiley after</h1><hr>
+<img src="/home/cse9/20171cse0571/index.jpeg/" alt="logo"><hr>
+<div class="first">Hover over me to show the p element
+  <p>Tada! Here I am!A CSS pseudo-element is used to style specified parts of an element.
+
+For example, it can be used to:
+
+    Style the first letter, or line, of an element
+    Insert content before, or after, the content of an element
+</p>
+</div>
+<div class="second">Hover over me to show the p element
+  <p>Tada! Here I am!A CSS pseudo-element is used to style specified parts of an element.
+
+For example, it can be used to:
+
+    Style the first letter, or line, of an element
+    Insert content before, or after, the content of an element
+</p>
+</div>
+<div class="third">Hover over me to show the p element
+  <p>Tada! Here I am!A CSS pseudo-element is used to style specified parts of an element.
+
+For example, it can be used to:
+
+    Style the first letter, or line, of an element
+    Insert content before, or after, the content of an element
+</p>
+</div><hr>
+</body>
+
+<!-- Mirrored from www.w3schools.com/css/tryit.asp?filename=trycss_pseudo-class_hover_tooltip by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Feb 2019 06:18:49 GMT -->
+</html>
+
